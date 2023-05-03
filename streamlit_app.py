@@ -21,5 +21,5 @@ st.title("Dating App")
 my_dataset = "databasedating.csv"
 
 if st.checkbox("Show All DataFrame"):
-	data = explore_data(my_dataset)
+	data = explore_data(databasedating.csv)
 	st.dataframe(data)
