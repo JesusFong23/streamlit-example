@@ -22,27 +22,27 @@ my_dataset = "databasedating.csv"
 
 # Show Entire Dataframe
 if st.checkbox("Show All DataFrame"):
-	data = explore_data(databasedating.csv)
-	st.dataframe(data)
+    data = explore_data("databasedating.csv")
+    st.dataframe(data)
 
 # Show Description
 if st.checkbox("Show All Column Name"):
-	data = explore_data(databasedating.csv)
-	st.text("Columns:")
-	st.write(data.columns)
+    data = explore_data("databasedating.csv")
+    st.text("Columns:")
+    st.write(data.columns)
 
 # Dimensions
 data_dim = st.radio('What Dimension Do You Want to Show',('Rows','Columns'))
 if data_dim == 'Rows':
-	data = explore_data("databasedating.csv")
-	st.text("Showing Length of Rows")
-	st.write(len(data))
+    data = explore_data("databasedating.csv")
+    st.text("Showing Length of Rows")
+    st.write(len(data))
 if data_dim == 'Columns':
-	data = explore_data(databasedating.csv)
-	st.text("Showing Length of Columns")
-	st.write(data.shape[1])
+    data = explore_data("databasedating.csv")
+    st.text("Showing Length of Columns")
+    st.write(data.shape[1])
 
 
 if st.checkbox("Show Summary of Dataset"):
-	data = explore_data(databasedating.csv)
-	st.write(data.describe())
+    data = explore_data("databasedating.csv")
+    st.write(data.describe())
