@@ -12,6 +12,6 @@ Where you can matcha with someone ;)
 
 and create a brew-tiful relationship <3
 """
-image = Image.open('sunrise.jpg')
+image = Image.open('Green and Violet Y2k Party Stickers Dating Static Snapchat Snap Ad.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='Prototype')
