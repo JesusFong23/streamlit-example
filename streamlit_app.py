@@ -5,6 +5,13 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+def explore_data(file_path):
+    # Read in the CSV file using Pandas
+    data = pd.read_csv(file_path)
+    
+    # Return the DataFrame
+    return data
+
 """
 # Welcome to Connection Cafe!
 
