@@ -10,7 +10,7 @@ from PIL import Image
 
 Where you can matcha with someone ;)
 
-and create a brew-tiful relationship <3
+and create a brew-tiful relationship :heart:
 """
 image = Image.open('Green and Violet Y2k Party Stickers Dating Static Snapchat Snap Ad.jpg')
 
