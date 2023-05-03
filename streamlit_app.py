@@ -37,3 +37,5 @@ if st.checkbox("Show All Column Name"):
     data = explore_data("databasedating.csv")
     st.text("Columns:")
     st.write(data.columns)
+    
+#Referencias Jcharis and ChatGPT
