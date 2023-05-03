@@ -5,7 +5,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import streamlit.components.v1 as stc 
-from faker import Faker
 
 """
 # Welcome to Connection Cafe!
