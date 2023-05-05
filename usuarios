@@ -1,0 +1,1 @@
+{"_id":{"$oid":"64547179a7ee02bead6ddf77"},"nombre":"Javier","edad":{"$numberInt":"32"},"sexo":"Masculino","ocupacion":"Ingeniero","estado_civil":"soltero","objetivo":"relación seria"}
